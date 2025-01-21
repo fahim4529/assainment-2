@@ -129,10 +129,100 @@ font-weight: 600;
     height: 50px;
     opacity: 100%;
     margin-top:24px;
+    margin-bottom: 60px;
 
 }
 
+/* now i am style main */
+
+.main-div{
+    
+    width:83%;
+    height:880px;
+    margin:20px auto;
+    /* border: 2px solid red; */
+}
+.standard{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* margin:30px auto; */
+ 
+  
+ 
+}
+.main-title{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kinder-title{
+    margin-top: 40px;
+}
+.kinder-description{
+margin-top: 40px;
+}
+.kinder-read{
+   margin-top: 40px;
+   color:#01ACFD;
+}
+.kinder{
+    border:2px solid gray; 
+    width: 367px;
+    height: 476px;
+    border-radius:18px;
+    margin-left: 20px;
+    text-align: center;
+    background-image: linear-gradient(#DEF5FF,white);
+ 
+    
+
+}
+
+.school{
+    border:2px solid gray;
+    
+    width: 367px;
+    height: 476px;
+    border-radius:18px;
+    margin-left: 40px;
+    text-align: center; 
+    background-image: linear-gradient(#FFF4DC,white);
+}
+.school-title{
+    margin-top: 40px;
+}
+.school-description{
+    margin-top: 40px;
+}
+.school-read{
+    color:#F0AA00;
+}
+.middle{
+    border:2px solid gray;   
+    width: 367px;
+    height: 476px;
+    border-radius:18px;
+    text-align: center;
+    margin-left: 60px;
+    background-image: linear-gradient(#F2E8FF,white);
+  
+    
+}
+.middle-title,.middle-description{
+    margin-top: 40px;
+
+}
+.middle-read{
+    color:#8700FF; 
+}
+
+
 /* responsive for mobile device */
+
 @media screen and (max-width:576px) {
 .navbar,.parent-banner{
     flex-direction: column;
