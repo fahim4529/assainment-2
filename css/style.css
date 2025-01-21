@@ -234,4 +234,14 @@ margin-top: 40px;
 }
     
 } 
+/* responsive main menu */
+@media screen and (max-width:576px){
+    .standard{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap:20px;
+    }
+}
     
