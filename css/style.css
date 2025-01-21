@@ -136,7 +136,10 @@ font-weight: 600;
 @media screen and (max-width:576px) {
 .navbar,.parent-banner{
     flex-direction: column;
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
   
 }
     
