@@ -320,8 +320,21 @@ text-align:start;
 
   
 }
-    
+    /* now i style kids */
 } 
+.kids{
+    background:#01ACFD;
+    width: 90%;
+    height: 520px;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    
+    
+}
+
+
 /* responsive main menu */
 @media screen and (max-width:576px){
     .standard{
