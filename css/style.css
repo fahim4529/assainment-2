@@ -333,6 +333,26 @@ text-align:start;
     
     
 }
+.education{
+    color:white;
+    align-items: start;
+    margin-top: 25%;
+}
+.about-school{
+    color:white; 
+    margin-top: 25%;
+    text-align: center;
+    padding:10px;
+}
+#farhan{
+    font-size:13px;
+}
+
+/* #kid-img{
+    width:82px;
+    height:81px;
+} */ 
+
 
 
 /* responsive main menu */
@@ -346,11 +366,26 @@ text-align:start;
     }
 }
  /* responsive main style */
-    @media screen and (max-width:576px) {
-        .main-parent,.child,.parent{
-display: grid;
-grid-template-columns:1fr;
-text-align: center;
+ @media screen and (max-width:576px) {
+    .our-story{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+ }
+ @media screen and (max-width:576px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        justify-content: center;
+    }
+ }
+    /* @media screen and (max-width:576px) {
+        .main-parent{
+       display: grid;
+       grid-template-columns:1fr;
+       text-align: center;
 
         }
-    }
+    } */
